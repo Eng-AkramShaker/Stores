@@ -1,0 +1,63 @@
+name: stores
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  provider: ^6.1.1
+  flutter_svg:
+  confetti: ^0.7.0
+  intl_phone_field: ^3.2.0
+  motion_tab_bar: ^2.0.4
+  dropdown_button2: ^2.3.9
+  anim_search_bar: ^2.0.3
+  extended_image:
+  flutter_custom_carousel_slider:
+  sidebar_drawer: ^0.0.1+2
+  flutter_colorful_tab: ^0.1.0
+  material_text_fields: ^1.0.3
+  app_bar_with_search_switch: ^1.7.0
+
+  responsive_units: ^0.2.0+1
+
+  flexible_grid_view: ^0.0.2
+  scale_button: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Lemonada
+      fonts:
+        - asset: assets/fonts/Lemonada-Light.ttf
